@@ -1,5 +1,5 @@
 // ============================================
-//FOMO TRADING BOT - Complete Implementation
+//Axiom TRADING BOT - Complete Implementation
 // with Debug Logging & Professional Messages 
 // ============================================
 import { Telegraf, Markup } from 'telegraf';
@@ -1241,7 +1241,7 @@ async function showMainMenu(ctx, edit = false) {
     : `💼 *Wallet ${session.activeWalletIndex + 1}/${session.wallets.length}*\n\`${shortenAddress(wallet.publicKey)}\`\n💰 ${balance?.toFixed(4) || '?'} SOL ${solPrice ? `($${usdValue.toFixed(2)})` : ''} ${errMsg}`;
 
   const text = `
-🚀 *Welcome to Fomo Trading Bot* 🤖
+🚀 *Welcome to Axiom Trading Bot* 🤖
 
 Bullpen is the easiest way to jump into crypto, find meme coins, and trade on-chain..
 ━━━━━━━━━━━━━━━━━━

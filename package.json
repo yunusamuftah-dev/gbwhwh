@@ -1,5 +1,5 @@
 {
-  "name": "Fomo -trading-bot",
+  "name": "Axiom -trading-bot",
   "version": "1.0.0",
   "description": "Solana Trading Bot with Deposit/Transfer Features",
   "main": "snipe.js",
